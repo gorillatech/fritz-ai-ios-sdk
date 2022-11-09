@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public typealias rgbaValue = (r: UInt8, g: UInt8, b: UInt8, a: UInt8)
 

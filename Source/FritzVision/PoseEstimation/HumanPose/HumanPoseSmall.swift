@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @objc(FritzVisionHumanPoseModelSmall)
 @available(iOS 12.0, *)

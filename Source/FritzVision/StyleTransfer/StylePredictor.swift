@@ -9,6 +9,9 @@
 import CoreML
 import Foundation
 import Vision
+import FritzManagedModel
+import FritzCore
+import CoreImage
 
 @available(*, deprecated, renamed: "FlexibleModelDimensions")
 @objc(StyleOutputDimensions)

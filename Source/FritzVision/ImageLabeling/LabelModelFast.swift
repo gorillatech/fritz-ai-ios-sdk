@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @objc(FritzVisionLabelModelFast)
 @available(iOS 11.0, *)

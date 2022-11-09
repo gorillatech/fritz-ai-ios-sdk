@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreImage
 
 /// Creates a blended mask of a person's hair.
 @available(iOS 11.0, *)

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreImage
 
 /// Stylizes the input image.
 @available(iOS 11.0, *)

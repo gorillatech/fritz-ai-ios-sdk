@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import Vision
 
 @available(iOS 11.0, *)
 protocol VisionCoreMLModelReadType: FritzMLModelReadType {

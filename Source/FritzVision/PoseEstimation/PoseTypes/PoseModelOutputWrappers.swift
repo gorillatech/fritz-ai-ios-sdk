@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import CoreML
+import FritzCoreMLHelpers
 
 public struct HeatmapPoint {
   let x: Int

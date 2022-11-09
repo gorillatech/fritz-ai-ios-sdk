@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 /// Class labels for FritzVisionPeopleAndPetSegmentationMediumModel
 @objc(FritzVisionPeopleAndPetSegmentationMediumClass)

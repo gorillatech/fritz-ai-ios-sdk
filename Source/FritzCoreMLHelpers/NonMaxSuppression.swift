@@ -18,6 +18,8 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 //  IN THE SOFTWARE.
 
+import Foundation
+
 ///  Computes intersection-over-union overlap between two bounding boxes.
 public func IOU(_ a: CGRect, _ b: CGRect) -> Float {
   let areaA = a.width * a.height

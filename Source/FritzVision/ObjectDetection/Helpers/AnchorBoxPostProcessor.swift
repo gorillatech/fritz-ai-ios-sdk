@@ -1,4 +1,7 @@
 import Accelerate
+import CoreML
+import FritzCoreMLHelpers
+
 // Copyright (c) 2017 M.I. Hollemans
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy

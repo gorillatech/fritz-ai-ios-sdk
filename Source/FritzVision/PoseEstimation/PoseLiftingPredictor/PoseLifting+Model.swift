@@ -8,6 +8,8 @@
 
 import CoreML
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
 
 @available(iOS 11.0, *)
 extension Pose: FritzPredictionInput {}

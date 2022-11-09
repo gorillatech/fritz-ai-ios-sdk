@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
 
 @objc(FritzVisionSkyClass)
 public class FritzVisionSkyClass: NSObject {

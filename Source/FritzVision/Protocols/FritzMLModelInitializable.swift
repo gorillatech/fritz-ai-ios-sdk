@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 /// Model that can be initialized purely from various forms of FritzMLModels
 @available(iOS 11.0, *)

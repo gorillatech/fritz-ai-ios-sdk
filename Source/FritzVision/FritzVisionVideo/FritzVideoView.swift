@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import AVFoundation
 
 @available(iOS 11.0, *)
 open class FritzVideoView: UIView {

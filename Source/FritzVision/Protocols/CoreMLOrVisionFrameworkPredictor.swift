@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 /// Predictor that can use both Core ML and the Vision framework for predictions.
 @available(iOS 11.0, *)

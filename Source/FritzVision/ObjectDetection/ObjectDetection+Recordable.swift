@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 // MARK: - Object Prediction Data Recording.
 

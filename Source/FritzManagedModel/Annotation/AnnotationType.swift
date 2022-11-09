@@ -6,7 +6,7 @@
 //  Copyright © 2019 Fritz Labs Incorporated. All rights reserved.
 //
 
-import Foundation
+import FritzCore
 
 /// A type that represents annotations for an object.
 public protocol AnnotationType: Codable {

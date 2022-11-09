@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @objc(FritzVisionPetClass)
 public class FritzVisionPetClass: NSObject {

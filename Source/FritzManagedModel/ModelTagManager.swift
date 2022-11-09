@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzCore
 
 extension Array where Element: Equatable {
   fileprivate func contains(array: [Element]) -> Bool {

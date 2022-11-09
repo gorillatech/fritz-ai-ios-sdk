@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreML
 
 func clamp(_ a: Int, min: Int, max: Int) -> Int {
   if a < min { return min }

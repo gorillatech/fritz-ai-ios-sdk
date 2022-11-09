@@ -6,6 +6,8 @@
 //  Copyright © 2018 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 /// Key to reference instance identifier
 private let instanceIdentifierKey = "com.fritz.sdk.instance-identifier"
 

@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import CoreML
+import FritzManagedModel
+import Vision
 
 /// Options for Pose Model.
 @objc(FritzVisionPoseModelOptions)

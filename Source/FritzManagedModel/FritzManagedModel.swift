@@ -6,7 +6,8 @@
 //  Copyright © 2019 Fritz Labs Incorporated. All rights reserved.
 //
 
-import Foundation
+import CoreML
+import FritzCore
 
 public enum FritzManagedModelError: Error {
   case loadingSavedModelFailed

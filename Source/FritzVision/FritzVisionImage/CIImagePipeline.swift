@@ -8,6 +8,8 @@
 
 import CoreImage
 import Foundation
+import UIKit
+import FritzCore
 
 @available(iOS 11.0, *)
 @objcMembers

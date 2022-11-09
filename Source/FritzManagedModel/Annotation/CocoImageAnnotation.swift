@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzCore
 
 /// COCO Annotation
 public struct CocoImageAnnotation: Codable, AnnotationType {

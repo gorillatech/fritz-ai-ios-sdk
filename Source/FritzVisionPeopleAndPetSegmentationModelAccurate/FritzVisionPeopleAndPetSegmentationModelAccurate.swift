@@ -6,12 +6,17 @@
 //  Copyright © 2019 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+import FritzManagedModel
+import FritzVision
+import CoreML
+
 extension people_and_pet_segmentation_icnet_768x768_1_1572886302: SwiftIdentifiedModel {
-  static var modelIdentifier: String = FritzVisionPeopleAndPetSegmentationModelAccurate.modelConfig
+    public static var modelIdentifier: String = FritzVisionPeopleAndPetSegmentationModelAccurate.modelConfig
     .identifier
-  static var packagedModelVersion: Int = FritzVisionPeopleAndPetSegmentationModelAccurate
+    public static var packagedModelVersion: Int = FritzVisionPeopleAndPetSegmentationModelAccurate
     .modelConfig.version
-  static var pinnedModelVersion: Int = 2
+    public static var pinnedModelVersion: Int = 2
 }
 
 extension FritzVisionPeopleAndPetSegmentationModelAccurate: PackagedModelType {

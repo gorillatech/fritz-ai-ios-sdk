@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @available(iOS 12.0, *)
 @objc(FritzVisionHairSegmentationModelSmall)

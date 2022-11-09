@@ -6,6 +6,8 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 /// Type of content we expect from API
 private let httpContentType = "application/json"
 

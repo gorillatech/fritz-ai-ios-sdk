@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
 
 /// Image segmentation model to detect the sky.
 @available(iOS 11.0, *)

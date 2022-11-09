@@ -6,6 +6,8 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 /// Encapsualtes your App Token and the Environment in which to send all Fritz-related requests.
 /// 
 /// - Note: By default the SDK will read your App Token from the `FritzToken` line in your apps Info.plist. However, by providing a `Session` when conforming to `BaseIdentifiedModel` you have the ability to use models in your app that are from different Fritz accounts. This is useful if you are an SDK author and want to include Fritz as a dependency in your SDK without affecting the end-develoeprs ability to also use Fritz with their App Token.

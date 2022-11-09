@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import CoreML
 
 @available(iOS 11.0, *)
 protocol CoreMLImagePredictor: FritzVisionImagePredictable, CoreMLPredictor {}

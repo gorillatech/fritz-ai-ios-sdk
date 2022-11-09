@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import FritzCore
 
 /// Adds functionality to record annotated model predictions.
 ///

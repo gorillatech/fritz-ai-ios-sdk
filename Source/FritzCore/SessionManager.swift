@@ -6,7 +6,7 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 public enum SessionManagerError: Error {
   case disabled

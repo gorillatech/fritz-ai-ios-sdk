@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 // MARK: - Pose Prediction Data Recording.
 

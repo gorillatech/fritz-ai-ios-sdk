@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
 
 /// Image segmentation model to detect common outdoor objects.
 @available(iOS 11.0, *)

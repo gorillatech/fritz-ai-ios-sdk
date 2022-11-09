@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
 
 internal enum Labels: String {
   case none = "None"

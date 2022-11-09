@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 /// Image segmentation model to detect people and pets.
 @available(iOS 11.0, *)

@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import FritzCore
+import FritzCoreMLHelpers
 
 @available(iOS 11.0, *)
 public class MultiPoseSmoother<Filter: PointFilterable, Skeleton: SkeletonType>

@@ -6,6 +6,8 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 extension NSNotification {
 
   /// Subscribe to this notification to receive Fritz-related errors

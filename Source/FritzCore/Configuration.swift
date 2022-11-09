@@ -6,6 +6,8 @@
 //  Copyright © 2018 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 @objc(FritzConfiguration)
 @available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *)
 public class Configuration: NSObject {

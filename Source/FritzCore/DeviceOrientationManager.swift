@@ -6,7 +6,7 @@
 //  Copyright © 2019 Fritz Labs Incorporated. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 /// Tracks Device Orientation changes.
 @objc(DeviceOrientationManager)

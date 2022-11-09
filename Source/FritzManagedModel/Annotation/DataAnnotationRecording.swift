@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzCore
 
 @available(iOS 11.0, *)
 public class DataAnnotationRecording<AnnotationRepresentation: AnnotationRepresentable>

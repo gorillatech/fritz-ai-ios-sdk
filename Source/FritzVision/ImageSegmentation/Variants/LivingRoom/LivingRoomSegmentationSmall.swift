@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 /// Image segmentation model to detect common living room objects.
 @available(iOS 12.0, *)

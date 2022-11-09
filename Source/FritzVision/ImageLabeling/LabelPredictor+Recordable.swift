@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 // MARK: - Image Labeling Data Recording.
 

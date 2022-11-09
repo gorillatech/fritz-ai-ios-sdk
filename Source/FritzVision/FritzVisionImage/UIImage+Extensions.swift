@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIImage {
   /// Returns a UIImage that is backed by a CGImage.

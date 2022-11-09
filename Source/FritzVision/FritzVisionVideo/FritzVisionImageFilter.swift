@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreImage
 
 @available(iOS 11.0, *)
 public protocol FritzVisionImageFilter {

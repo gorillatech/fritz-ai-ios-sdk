@@ -6,6 +6,8 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 /// The type of error encountered
 @objc(FritzErrorCode)
 public enum ErrorCode: Int {

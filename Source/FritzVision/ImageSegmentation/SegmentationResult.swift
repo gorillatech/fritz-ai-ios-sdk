@@ -9,6 +9,10 @@
 import AVFoundation
 import Accelerate
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
+import CoreML
+import FritzVisionSegmentationPredictor
 
 // MARK: - Segmentation Result
 @available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *)

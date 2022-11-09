@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreML
 
 @available(iOS 11.0, *)
 public class ObjectDetectionInputProvider: MLFeatureProvider {

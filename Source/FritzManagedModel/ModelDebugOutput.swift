@@ -6,7 +6,8 @@
 //  Copyright © 2019 Fritz Labs Incorporated. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import FritzCore
 
 let imageKey = "image"
 

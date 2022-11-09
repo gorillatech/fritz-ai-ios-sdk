@@ -1,4 +1,7 @@
 import Foundation
+import FritzManagedModel
+import FritzCoreMLHelpers
+import CoreML
 
 @available(iOS 11.0, *)
 public class FritzVisionPoseResult<Skeleton: SkeletonType>: FritzPredictionResult {

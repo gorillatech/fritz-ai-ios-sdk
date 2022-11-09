@@ -8,6 +8,7 @@
 
 import Foundation
 import FritzCore
+import CoreML
 
 /// Manages an MLModel instance
 @objc(FritzReadModelProvider)

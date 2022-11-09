@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @objc(FritzVisionLivingRoomClass)
 public class FritzVisionLivingRoomClass: NSObject {

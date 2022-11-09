@@ -6,6 +6,8 @@
 //  Copyright © 2018 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 /// Anchor box used in object detection models.
 public struct Anchor {
 

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 public enum FritzVisionModelTagError: Error {
   case loadingModelsFailed(errors: [Error])

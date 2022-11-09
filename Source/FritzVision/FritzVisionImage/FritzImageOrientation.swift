@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import UIKit
+import FritzCore
+import AVFoundation
 
 /// Describes the orientation of the image. The orientations match the [CGImagePropertyOrientation](https://developer.apple.com/documentation/imageio/cgimagepropertyorientation) Enumeration from Apple. Refer to that documentation for clear descriptions of each case.
 @available(iOS 11.0, *)

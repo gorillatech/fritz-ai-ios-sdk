@@ -7,6 +7,7 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
 
 /// Default to 10 retries, last retry is ~1 hour
 public let defaultMaxRetries: UInt = 12

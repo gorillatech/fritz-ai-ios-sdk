@@ -1,4 +1,7 @@
 import CoreGraphics
+import UIKit
+import Vision
+import AVFoundation
 
 @objc(FritzVisionCropAndScale)
 public enum FritzVisionCropAndScale: Int {

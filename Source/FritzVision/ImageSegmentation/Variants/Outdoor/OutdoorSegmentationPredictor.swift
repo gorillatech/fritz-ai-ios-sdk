@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FritzManagedModel
 
 @objc(FritzVisionOutdoorClass)
 public class FritzVisionOutdoorClass: NSObject {

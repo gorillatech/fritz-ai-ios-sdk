@@ -10,6 +10,9 @@ import AVFoundation
 import Accelerate
 import Foundation
 import Vision
+import FritzManagedModel
+import UIKit
+import FritzCoreMLHelpers
 
 @objc(FritzVisionSegmentationModelOptions)
 public final class FritzVisionSegmentationModelOptions: NSObject, FritzImageOptions {

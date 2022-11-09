@@ -6,6 +6,8 @@
 //  Copyright © 2017 Fritz Labs Incorporated. All rights reserved.
 //
 
+import Foundation
+
 public enum RetryResult {
   case success
   case error

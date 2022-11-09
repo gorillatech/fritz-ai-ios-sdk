@@ -9,7 +9,7 @@
 import AVFoundation
 import Foundation
 import Photos
-
+import UIKit
 
 @available(iOS 11.0, *)
 public class FritzVisionVideo {
