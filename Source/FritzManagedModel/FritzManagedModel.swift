@@ -206,7 +206,7 @@ extension FritzManagedModel {
     guard let localInfo = SessionManager.localModelManager.loadLocalModelInfo(activeModelConfig)
     else {
       guard let packagedIdentifiedModelType = packagedIdentifiedModelType,
-        let modelURL = packagedIdentifiedModelType.urlOfModelInThisBundle
+        let modelURL = packagedIdentifiedModelType.urlOfModelInThisBundleFritz
       else { return nil }
 
       guard let mlmodel = try? MLModel(contentsOf: modelURL) else { return nil }

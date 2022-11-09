@@ -8,7 +8,7 @@
 
 import Foundation
 
-public protocol FritzPredictionInput: class {}
+public protocol FritzPredictionInput: AnyObject {}
 
 @available(iOS 11.0, *)
 extension FritzVisionImage: FritzPredictionInput {}

@@ -17,6 +17,8 @@ extension people_and_pet_segmentation_icnet_768x768_1_1572886302: SwiftIdentifie
     public static var packagedModelVersion: Int = FritzVisionPeopleAndPetSegmentationModelAccurate
     .modelConfig.version
     public static var pinnedModelVersion: Int = 2
+
+    public static var urlOfModelInThisBundleFritz: URL = urlOfModelInThisBundle
 }
 
 extension FritzVisionPeopleAndPetSegmentationModelAccurate: PackagedModelType {

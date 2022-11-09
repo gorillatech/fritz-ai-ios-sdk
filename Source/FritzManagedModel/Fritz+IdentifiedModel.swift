@@ -20,7 +20,7 @@ public protocol ReadModelProvider {
 
   /// The url of the compiled model url in the bundle.
   @objc(urlOfModelInThisBundle)
-  optional static var urlOfModelInThisBundle: URL { get }
+  optional static var urlOfModelInThisBundleFritz: URL { get }
 }
 
 // MARK: - Base
