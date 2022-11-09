@@ -11,8 +11,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "fritz-ai-ios-sdk",
-            targets: ["FritzCore", "FritzManagedModel", "FritzCoreMLHelpers", "FritzVisionPeopleAndPetAccurate"]),
+            name: "FritzVisionPeopleAndPetAccurate",
+            targets: ["FritzVisionPeopleAndPetAccurate"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
