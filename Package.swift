@@ -34,7 +34,7 @@ let package = Package(
             path: "Source/FritzVisionSegmentationPredictor"),
         .target(
             name: "FritzVision",
-            dependencies: ["FritzCore", "FritzVisionSegmentationPredictor"],
+            dependencies: ["FritzCore", "FritzVisionSegmentationPredictor", "FritzManagedModel", "FritzCoreMLHelpers"],
             path: "Source/FritzVision"),
         .target(
             name: "FritzCoreMLHelpers",
