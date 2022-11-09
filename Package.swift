@@ -11,8 +11,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "FritzVisionPeopleAndPetSegmentationModelAccurate",
-            targets: ["FritzCore", "FritzManagedModel", "FritzVisionSegmentationPredictor", "FritzVision", "FritzCoreMLHelpers", "FritzVisionPeopleAndPetSegmentationModelAccurate"]),
+            name: "FritzVisionPeopleAndPetModelAccurate",
+            targets: ["FritzCore", "FritzManagedModel", "FritzVisionSegmentationPredictor", "FritzVision", "FritzCoreMLHelpers", "FritzVisionPeopleAndPetModelAccurate"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -40,7 +40,7 @@ let package = Package(
             name: "FritzCoreMLHelpers",
             path: "Source/FritzCoreMLHelpers"),
         .target(
-            name: "FritzVisionPeopleAndPetSegmentationModelAccurate",
+            name: "FritzVisionPeopleAndPetModelAccurate",
             dependencies: ["FritzVision"],
             path: "Source/FritzVisionPeopleAndPetSegmentationModelAccurate"
         )
